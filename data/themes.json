@@ -1,0 +1,30 @@
+[
+    {
+        "id": "numbers",
+        "pair": "ru-en",
+        "name": "Числа (Numbers)",
+        "path": "/data/ru-en/numbers.json",
+        "wordCount": 11
+    },
+    {
+        "id": "family",
+        "pair": "ru-en",
+        "name": "Семья (Family)",
+        "path": "/data/ru-en/family.json",
+        "wordCount": 10
+    },
+    {
+        "id": "colors",
+        "pair": "ru-en",
+        "name": "Цвета (Colors)",
+        "path": "/data/ru-en/colors.json",
+        "wordCount": 10
+    },
+    {
+        "id": "cities",
+        "pair": "ru-en",
+        "name": "Города",
+        "path": "/data/ru-en/cities.json",
+        "wordCount": 50
+    }
+]
