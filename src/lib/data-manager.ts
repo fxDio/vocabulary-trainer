@@ -33,9 +33,10 @@ export const DataManager = {
             // Return the FILE inside that folder
             return {
                 ...t,
-                name: `${t.name} (Базовый)`, // Rename file to indicate it's the content
+                name: `${t.name} (Базовый)`,
                 parentId: groupId,
-                wordCount: t.wordCount
+                wordCount: t.wordCount,
+                path: `${BASE_URL}/${t.path}`
             };
         });
 
