@@ -1,6 +1,6 @@
 import type { ThemeMeta, ThemeContent, Word } from '../types';
 
-const BASE_URL = '/data';
+const BASE_URL = import.meta.env.BASE_URL + 'data';
 const CUSTOM_THEMES_KEY = 'vocab_custom_themes_meta';
 const CUSTOM_DATA_PREFIX = 'vocab_custom_data_';
 
