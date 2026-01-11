@@ -36,7 +36,8 @@ export const DataManager = {
                 name: `${t.name} (Базовый)`,
                 parentId: groupId,
                 wordCount: t.wordCount,
-                path: `${BASE_URL}/${t.path}`
+                // themes.json has paths like "/data/...", so we just prepend the site base URL
+                path: import.meta.env.BASE_URL + t.path.replace(/^\//, '')
             };
         });
 
