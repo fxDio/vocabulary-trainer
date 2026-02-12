@@ -26,5 +26,47 @@
         "name": "Города",
         "path": "/data/ru-en/cities.json",
         "wordCount": 50
+    },
+    {
+        "id": "numbers_zh",
+        "pair": "ru-zh",
+        "name": "Числа (中文)",
+        "path": "/data/ru-zh/numbers.json",
+        "wordCount": 11
+    },
+    {
+        "id": "family_zh",
+        "pair": "ru-zh",
+        "name": "Семья (中文)",
+        "path": "/data/ru-zh/family.json",
+        "wordCount": 10
+    },
+    {
+        "id": "colors_zh",
+        "pair": "ru-zh",
+        "name": "Цвета (中文)",
+        "path": "/data/ru-zh/colors.json",
+        "wordCount": 10
+    },
+    {
+        "id": "cities_zh",
+        "pair": "ru-zh",
+        "name": "Города (中文)",
+        "path": "/data/ru-zh/cities.json",
+        "wordCount": 50
+    },
+    {
+        "id": "theme_1770839779684",
+        "name": "жьхйцжхй",
+        "pair": "ru-zh",
+        "path": "/data/ru-zh/theme_1770839779684.json",
+        "wordCount": 20
+    },
+    {
+        "id": "theme_1770844637974",
+        "name": "qqq",
+        "pair": "ru-zh",
+        "path": "/data/ru-zh/theme_1770844637974.json",
+        "wordCount": 6
     }
 ]
